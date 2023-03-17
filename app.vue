@@ -1,14 +1,6 @@
 <template>
   <div>
-    <h1>{{ message }}</h1>
+    <NuxtPage />
   </div>
 </template>
-<script>
-  export default {
-    data: function() {
-      return {
-        message: 'Hello World!'
-      }
-    }
-  }
-</script>
+
